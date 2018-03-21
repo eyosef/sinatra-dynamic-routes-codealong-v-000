@@ -2,7 +2,9 @@ require 'pry'
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/' do 
+
+  get '/' do
+    "This is my root page"
   end
   # This is a sample static route.
   get '/hello' do
